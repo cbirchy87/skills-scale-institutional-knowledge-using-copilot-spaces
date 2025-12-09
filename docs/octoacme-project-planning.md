@@ -31,13 +31,26 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Ensure team capacity is respected
 
 ## Risk & Dependency Management
-- Capture in Risk Register:
+- **Risk Manager** captures risks in the Risk Register:
   - ID, Description, Impact, Probability, Owner, Mitigation
-- Mark cross-team dependencies in the project board and escalate during weekly syncs
+- **Project Manager** marks cross-team dependencies in the project board and escalates during weekly syncs
+- **Risk Manager** facilitates risk reviews during planning and throughout execution
+- **Change Control Coordinator** assesses how dependencies and risks impact change requests
+
+## Change Control Process
+The **Change Control Coordinator** manages changes to project scope, schedule, or resources:
+- Reviews incoming change requests for completeness and clarity
+- Assesses impact on timeline, budget, and existing commitments with **Project Manager**
+- Coordinates approval workflow with **Product Manager** and stakeholders
+- Documents approved changes and ensures project plans are updated
+- Tracks change metrics to identify trends and inform process improvements
 
 ## Planning Checklist
-- [ ] Project kickoff held
+- [ ] Project kickoff held with all key roles identified
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Initial test plan / QA approach drafted by **QA Specialist**
+- [ ] Risk register initialized by **Risk Manager**
+- [ ] Communication plan created by **Communications Lead**
+- [ ] Change control process established with **Change Control Coordinator**

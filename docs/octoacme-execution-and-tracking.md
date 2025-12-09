@@ -17,11 +17,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
-- Unit tests for new logic
-- Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+The **QA Specialist** leads quality assurance activities and collaborates with developers on testing strategies:
+- **QA Specialist** develops test plans based on acceptance criteria
+- **Developers** write unit tests for new logic
+- **QA Specialist** executes integration tests and coordinates end-to-end testing
+- **QA Specialist** performs end-to-end smoke tests for critical flows before release
+- Security scanning in CI (reviewed by **QA Specialist** and **Developers**)
+- **QA Specialist** conducts manual QA for feature acceptance and validates bug fixes
+- **QA Specialist** reports quality metrics and testing progress to the **Project Manager**
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -37,4 +40,6 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] Risk register updated weekly by **Risk Manager**
+- [ ] **QA Specialist** test plans created and maintained
+- [ ] Communication plan active with stakeholder updates from **Communications Lead**
